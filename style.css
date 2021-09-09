@@ -1,0 +1,138 @@
+html, body, canvas {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    position: absolute;
+    height: 680px;
+    width: 420px;
+    top: 50%;
+    margin-top: -340px;
+    left: 50%;
+    margin-left: -210px;
+    background-color: rgba(255, 255, 255, 0.73);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .site {
+    /*border: solid 2px green;*/
+    height: 300px;
+    width: 100%;
+  }
+  
+  .img_site {
+    height: 115px;
+  }
+  .img_site img {
+    height: 100px;
+    width: 100px;
+    border-radius: 106px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 13px;
+  }
+  
+  .titulo_site {
+    height: 45px;
+  }
+  h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .descripcion_site {
+    height: 23px;
+  }
+  p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  .links_site {
+    margin-top: 35px;
+    height: auto;
+  }
+  .links_site div {
+    height: 82px;
+    width: 280px;
+    /*background: red;*/
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+  }
+
+  
+  .links_site img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .links_site h2 a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+  }
+  .links_site_1 a:hover {
+    color: #fff;
+  }
+  .links_site_2 a:hover {
+    color: #0470E5;
+  }
+  .links_site_3 a:hover {
+    color: #1DA1F2;
+  }
+  .links_site_4 a:hover {
+    color: #FF0000;
+  }
+  .links_site_5 a:hover {
+    color: #B62FA5;
+  }
+
+  .score {
+    color: #fff;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: -43.9px;
+    top: -50px;
+  }
+  .score p {
+    margin: 0;
+  }
+
+  #puntos {
+    padding-left: 10px;
+  }
+
+  .cupon {
+    width: 500px;
+    position: absolute;
+    background: #fff;
+    text-align: center;
+    top: 50%;
+    margin-top: -54px;
+    left: 50%;
+    margin-left: -250px;
+    z-index: 99;
+    display: none;
+  }
+
+  .cupon span {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+  }
